@@ -12,6 +12,22 @@
  *
  */
 
+ // Your code :
+const keepFirst = (str) => {
+     str.split('')
+     return str[0] + str[1]
+}
+const keepLast = (str) => {
+    str.split('')
+    return str[str.length - 1] + str[str.length]
+}
+const keepFirstLast = (str) => {
+    str.split('')
+    return str[2] + str[3]
+}
+
+// aller fouiller le string.prototype.
+
 
 //* Begin of tests
 const assert = require('assert')

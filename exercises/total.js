@@ -6,6 +6,15 @@
  *
  */
 
+// Your code :
+const total = ([a, b, c]) => {
+    let nbIter = total.length
+    let somme = 0
+    for ( nbIter; nbIter != 0; nbIter--) {
+        somme += total[nbIter]
+    }
+    return somme
+}
 
 //* Begin of tests
 const assert = require('assert')

@@ -16,6 +16,7 @@ const sourceObject = {
 }
 
 // Your code :
+const get = sourceObject[n] => sourceObject[n]
 
 //* Begin of tests
 const assert = require('assert')

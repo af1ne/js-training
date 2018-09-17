@@ -8,6 +8,14 @@
  */
 
 // Your code :
+const sameSign = (n1, n2) => {
+    if ( n1 === n2 ) {
+        return true
+    } else {
+        return false
+    }
+}
+
 
 //* Begin of tests
 const assert = require('assert')

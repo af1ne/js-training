@@ -7,6 +7,16 @@
  * Of course you may not use the method directly
  *
  */
+// Your code :
+const repeat = (a, n) => {
+    let count = 0
+    while ( count !== n) {
+        let stringRepeat = 'a'
+        stringRepeat = stringRepeat + 'a'
+        count += 1
+    }
+    return stringRepeat
+}
 
 //* Begin of tests
 const assert = require('assert')

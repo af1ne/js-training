@@ -7,6 +7,11 @@
  *
  */
 
+// Your code :
+const whisper = (str) => {
+    const toLowerCase = "*" + whisper.toLowerCase() + "*"
+    return toLowerCase
+}
 
 //* Begin of tests
 const assert = require('assert')

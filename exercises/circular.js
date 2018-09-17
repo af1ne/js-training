@@ -8,6 +8,8 @@
  */
 
 // Your code :
+const circular = new object () 
+circular.circular = 'itself'
 
 //* Begin of tests
 const assert = require('assert')

@@ -8,6 +8,7 @@
  */
 
 // Your code :
+const getFirst = (str) => getFirst[str.split[0]]
 
 //* Begin of tests
 const assert = require('assert')

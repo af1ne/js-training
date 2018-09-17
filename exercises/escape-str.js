@@ -8,7 +8,19 @@
  */
 
 // Your code :
-
+const escapeStr = (str) => {
+    if (str === /) {
+        str = '//'
+    } else if ( str === \) {
+        str = '/\'
+    } else if ( str === `) {
+        str = '`'
+    } else if (str === ") {
+        str = '"'
+    } else if (str === '') {
+        str = "'"
+    }
+}
 //* Begin of tests
 const assert = require('assert')
 
