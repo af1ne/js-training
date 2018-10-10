@@ -7,13 +7,9 @@
  */
 
 // Your code :
-const total = ([a, b, c]) => {
-    let nbIter = total.length
-    let somme = 0
-    for ( nbIter; nbIter != 0; nbIter--) {
-        somme += total[nbIter]
-    }
-    return somme
+const total = (arr) => {
+    const somme = arr.reduce((accumulateur, valeurCourante) => accumulateur + valeurCourante);
+    return somme;
 }
 
 //* Begin of tests

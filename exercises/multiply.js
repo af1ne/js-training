@@ -11,9 +11,16 @@
 // Your code :
 const multiply = (n1, n2) => {
     let total = 0
-    while (n1 > 0) {
-        total += n2
-        n1--
+
+    while (n1 !== 0) {
+        
+        if (n1 >= 0) {
+            total += n2
+            n1--
+        } else {
+            total -= n2
+            n1++
+        }
     }
     return total
 }
