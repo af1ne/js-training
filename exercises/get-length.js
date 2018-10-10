@@ -8,9 +8,8 @@
  */
 
 // Your code :
-const getLength = (str) => {
-    const length = getLength.length()
-    return length
+const getLength = (value) => {
+    return value.length
 }
 
 //* Begin of tests
