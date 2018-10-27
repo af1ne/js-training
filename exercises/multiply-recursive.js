@@ -9,8 +9,34 @@
  * @notions Primitive and Operators, Functions, Recursion
  */
 
-// Your code :
-const multiply = (a, b) => a * b
+//Your code :
+const multiply = (n1, n2) => {
+    if (n1 === 0 || n2 === 0) {
+        return 0;
+    } else {
+        let result = new Array(Math.abs(n1))
+        result = result.fill(Math.abs(n2))
+        result = result.reduce((accumulator, currentValue) => accumulator + currentValue);
+        if ((n1 < 0 && n2 < 0) || (n1 > 0 && n2 > 0)) {
+            return result;
+        } else if (n1 < 0 || n2 < 0) {
+            return result - (result + result);
+        }
+    } 
+}
+
+// let n1b = n1;
+// let n2b = n2;
+// if (n1 < 0)  {
+//     n1b = 0 - n1;
+// }
+// if (n2 < 0){
+//     n2b = 0 - n2;
+// } 
+
+// const x = 3;
+// const y = 4;
+// console.log(multiply(x, y))
 
 //* Begin of tests
 const assert = require('assert')
